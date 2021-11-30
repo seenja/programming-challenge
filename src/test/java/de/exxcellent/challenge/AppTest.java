@@ -28,4 +28,10 @@ class AppTest {
         App.main("--football", "football.csv");
     }
 
+    // Test: file not existing
+
+    // Test: empty file -- test null
+
+    // Test: file should return content read from the file -- test notNull
+
 }

@@ -21,5 +21,9 @@ public final class App {
 
         String teamWithSmallestGoalSpread = "A good team"; // Your goal analysis function call …
         System.out.printf("Team with smallest goal spread       : %s%n", teamWithSmallestGoalSpread);
+
+        // read data; call readCSVFile()
+
+        // find minDataSpread; call findMinDataSpread() 
     }
 }
