@@ -4,6 +4,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 /**
  * Example JUnit 5 test case.
@@ -28,9 +29,15 @@ class AppTest {
         App.main("--football", "football.csv");
     }
 
-    // Test: file not existing
+    @Test
+    void readNonExistingFile() {
+        assertNull(App.readFile("nonExisting.csv"));
+    }
 
-    // Test: empty file -- test null
+    @Test
+    void readEmptyFile() {
+        assertNull(App.readFile("empty.csv"));
+    }
 
     // Test: file should return content read from the file -- test notNull
 

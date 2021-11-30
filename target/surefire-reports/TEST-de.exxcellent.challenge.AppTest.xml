@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="de.exxcellent.challenge.AppTest" time="0.083" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="de.exxcellent.challenge.AppTest" time="0.047" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="DE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Svenja\AppData\Local\Temp\surefire18338608355746348864\surefirebooter171642946581309550.jar C:\Users\Svenja\AppData\Local\Temp\surefire18338608355746348864 2021-11-30T10-13-41_331-jvmRun1 surefire11130605722262879748tmp surefire_010193388703579275711tmp"/>
+    <property name="sun.java.command" value="C:\Users\Svenja\AppData\Local\Temp\surefire17711505512110532311\surefirebooter15018967847995818202.jar C:\Users\Svenja\AppData\Local\Temp\surefire17711505512110532311 2021-11-30T17-01-30_178-jvmRun1 surefire12216373866205217162tmp surefire_09420711736089145610tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="d:\Svenja\GitHub\CodingChallenges\Java\programming-challenge\target\test-classes;d:\Svenja\GitHub\CodingChallenges\Java\programming-challenge\target\classes;C:\Users\Svenja\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.0-M1\junit-jupiter-engine-5.8.0-M1.jar;C:\Users\Svenja\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Svenja\.m2\repository\org\junit\platform\junit-platform-engine\1.8.0-M1\junit-platform-engine-1.8.0-M1.jar;C:\Users\Svenja\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Svenja\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;C:\Users\Svenja\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0-M1\junit-jupiter-api-5.8.0-M1.jar;C:\Users\Svenja\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.4.20\kotlin-stdlib-jdk8-1.4.20.jar;C:\Users\Svenja\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.4.20\kotlin-stdlib-1.4.20.jar;C:\Users\Svenja\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.4.20\kotlin-stdlib-common-1.4.20.jar;C:\Users\Svenja\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Svenja\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.4.20\kotlin-stdlib-jdk7-1.4.20.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Svenja\AppData\Local\Temp\surefire18338608355746348864\surefirebooter171642946581309550.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Svenja\AppData\Local\Temp\surefire17711505512110532311\surefirebooter15018967847995818202.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -56,10 +56,77 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runFootball" classname="de.exxcellent.challenge.AppTest" time="0.044">
+  <testcase name="runFootball" classname="de.exxcellent.challenge.AppTest" time="0.031">
     <system-out><![CDATA[Day with smallest temperature spread : Someday
 Team with smallest goal spread       : A good team
+elements: [Ljava.lang.String;@769e7ee8
+elements[0]: 1
+elements: [Ljava.lang.String;@5276e6b0
+elements[0]: 2
+elements: [Ljava.lang.String;@71b1176b
+elements[0]: 3
+elements: [Ljava.lang.String;@6193932a
+elements[0]: 4
+elements: [Ljava.lang.String;@647fd8ce
+elements[0]: 5
+elements: [Ljava.lang.String;@159f197
+elements[0]: 6
+elements: [Ljava.lang.String;@78aab498
+elements[0]: 7
+elements: [Ljava.lang.String;@5dd6264
+elements[0]: 8
+elements: [Ljava.lang.String;@1ffe63b9
+elements[0]: 9
+elements: [Ljava.lang.String;@51e5fc98
+elements[0]: 10
+elements: [Ljava.lang.String;@7c469c48
+elements[0]: 11
+elements: [Ljava.lang.String;@12e61fe6
+elements[0]: 12
+elements: [Ljava.lang.String;@7ee955a8
+elements[0]: 13
+elements: [Ljava.lang.String;@1677d1
+elements[0]: 14
+elements: [Ljava.lang.String;@48fa0f47
+elements[0]: 15
+elements: [Ljava.lang.String;@6ac13091
+elements[0]: 16
+elements: [Ljava.lang.String;@5e316c74
+elements[0]: 17
+elements: [Ljava.lang.String;@6d2a209c
+elements[0]: 18
+elements: [Ljava.lang.String;@75329a49
+elements[0]: 19
+elements: [Ljava.lang.String;@161479c6
+elements[0]: 20
+elements: [Ljava.lang.String;@4313f5bc
+elements[0]: 21
+elements: [Ljava.lang.String;@7f010382
+elements[0]: 22
+elements: [Ljava.lang.String;@1e802ef9
+elements[0]: 23
+elements: [Ljava.lang.String;@2b6faea6
+elements[0]: 24
+elements: [Ljava.lang.String;@778d1062
+elements[0]: 25
+elements: [Ljava.lang.String;@670002
+elements[0]: 26
+elements: [Ljava.lang.String;@1f0f1111
+elements[0]: 27
+elements: [Ljava.lang.String;@49c386c8
+elements[0]: 28
+elements: [Ljava.lang.String;@56528192
+elements[0]: 29
+elements: [Ljava.lang.String;@6e0dec4a
+elements[0]: 30
+file.get(0): [Ljava.lang.String;@769e7ee8
+file.get(0)[0]: 1
 ]]></system-out>
   </testcase>
-  <testcase name="aPointlessTest" classname="de.exxcellent.challenge.AppTest" time="0.006"/>
+  <testcase name="readNonExistingFile" classname="de.exxcellent.challenge.AppTest" time="0">
+    <system-out><![CDATA[File does not exist!
+]]></system-out>
+  </testcase>
+  <testcase name="aPointlessTest" classname="de.exxcellent.challenge.AppTest" time="0"/>
+  <testcase name="readEmptyFile" classname="de.exxcellent.challenge.AppTest" time="0"/>
 </testsuite>
