@@ -3,7 +3,10 @@ package de.exxcellent.challenge;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.*;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 /**
@@ -39,6 +42,36 @@ class AppTest {
         assertNull(App.readFile("empty.csv"));
     }
 
-    // Test: file should return content read from the file -- test notNull
+    @Test
+    void readNonEmptyFile() {
+        assertNotNull(App.readFile("weather.csv"));
+    }
+
+    @Test
+    void findMinDataSpreadOfEmptyList() {
+        assertEquals(null, App.findMinDataSpread(null, null, null, null));
+    }
+
+    @Test
+    void findMinDataSpreadOfSingleLine() {
+        String[] lineOne = new String[]{"Day", "MxT", "MnT"};
+        String[] lineTwo = new String[]{"1", "3", "2"};
+        List<String[]> inputData = new ArrayList<String[]>();
+        inputData.add(lineOne);
+        inputData.add(lineTwo);
+        assertEquals("1", App.findMinDataSpread(inputData, "Day", "MnT", "MxT"));
+    }
+
+    @Test
+    void findMinDataSpreadOfWeatherData() {
+        List<String[]> inputData = App.readFile("weather.csv");
+        assertEquals("14", App.findMinDataSpread(inputData, "Day", "MnT", "MxT"));
+    }
+
+    @Test
+    void findMinDataSpreadOfFootballData() {
+        List<String[]> inputData = App.readFile("football.csv");
+        assertEquals("Aston_Villa", App.findMinDataSpread(inputData, "Team", "Goals", "Goals Allowed"));
+    }
 
 }
